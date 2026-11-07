@@ -9,3 +9,13 @@ Se o Docker reclamar de permissão ou AppArmor ao subir (acontece em algumas ver
 
 Comando (utilize o shell do proxmox): 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/NielDayzEclipse/LXC-PROXMOX-Debian-Browser/main/pokeidle.sh)" 
+
+---
+
+## Claude Code + Proxmox MCP
+
+Script para criar um LXC com o Claude Code conectado à API do Proxmox. Veja [claude-mcp/README.md](claude-mcp/README.md).
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/NielDayzEclipse/LXC-PROXMOX-Debian-Browser/main/claude-mcp/claude-proxmox-lxc.sh)"
+```
